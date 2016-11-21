@@ -1,8 +1,8 @@
 -#!/bin/sh
 ssh 172.31.23.195 <<EOF
- cd /home/bitnami/Dev/kramer/nodeMs/NodeTest/NodeTest
+ cd /home/bitnami/Dev/kramer/nodeMs/NodeTest/NodeTes
  git pull
- npm install --production       
+ npm install --production
  pm2 restart all
  exit
 EOF
